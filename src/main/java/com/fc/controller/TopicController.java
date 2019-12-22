@@ -4,7 +4,6 @@ import com.fc.model.Post;
 import com.fc.model.Topic;
 import com.fc.service.PostService;
 import com.fc.service.TopicService;
-import com.fc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 @Controller
@@ -80,14 +78,14 @@ public class TopicController {
 
         //向模型中添加数据
 
-        return "index";
+        return "command";
     }
 
     @RequestMapping("/editDemand.do")
     public String editDemand(Model model, HttpServletRequest request){
 
 
-        return "index";
+        return "command";
     }
 }
 

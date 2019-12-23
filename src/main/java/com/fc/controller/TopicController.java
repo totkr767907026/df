@@ -85,8 +85,7 @@ public class TopicController {
     @RequestMapping("/editDemand.do")
     public String editDemand(Model model, HttpServletRequest request){
 
-        int a=1;
-        model.addAttribute(a);
+
         return "command";
     }
 }

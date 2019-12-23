@@ -78,7 +78,8 @@ public class TopicController {
         //列出帖子
 
         //向模型中添加数据
-
+        int i;
+        i=1;
         return "command";
     }
 

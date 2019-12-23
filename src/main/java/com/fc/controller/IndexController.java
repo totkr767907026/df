@@ -16,9 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
@@ -59,7 +57,7 @@ public class IndexController {
         model.addAttribute("pageBean",pageBean);
         model.addAttribute("userList",userList);
         model.addAttribute("hotUserList",hotUserList);
-        return "index";
+        return "command";
     }
     @RequestMapping("/toIndex2.do")
     public String toIndex2(Model model, HttpServletRequest request){
@@ -79,7 +77,7 @@ public class IndexController {
 
 //        PrintWriter out=response.getWriter();
 //        out.println(pageBean);
-        return "index";
+        return "command";
     }
 
 

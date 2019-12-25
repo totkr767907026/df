@@ -54,5 +54,11 @@ public class LoginInterceptor extends HandlerInterceptorAdapter{
     public void setExcludedUrls(List<String> excludedUrls) {
         this.excludedUrls = excludedUrls;
     }
+    
+    public String toPublish(Model model){
+        List<Topic> topicList = topicService.listTopic();
+        model.addAttribute("topicList",topicList);
+        return "publish";
+    }
 
 }

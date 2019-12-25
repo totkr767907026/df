@@ -16,15 +16,14 @@
 				<div class="share-left"><span></span>&nbsp;分享与提问</div>
 				<div class="share-right">
 					<a href="toPublish.do"><span class="glyphicon glyphicon-pencil"></span>&nbsp;我要发布</a>
-                    <a href=""><span class="glyphicon glyphicon-pencil"></span>&nbsp;我要求助</a>
 				</div>
 			</div>
 			<div class="post">
 				<div class="post-wrap">
 					<div class="post-choice">
-						<a href="toIndex.do" class="post-choice-current">最近</a>
+						<a href="#" class="post-choice-current">最近</a>
 						<a href="#">最热</a>
-						<a href="toIndex2.do" class="post-choice-last">精华</a>
+						<a href="#" class="post-choice-last">精华</a>
 					</div>
 
 					<ul class="post-list">

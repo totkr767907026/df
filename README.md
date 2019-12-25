@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>IT论坛</title>
+<title>BBS论坛</title>
 <link href="css\layout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -42,9 +42,7 @@
       <th class="tc">功能</th>
     </tr>
 <tr>
-    <td class="title">
-      <a href="/topics/392045527" class="title_style_blue title_style_bold" target="_blank" title="Java——面试总结三部曲">Java——面试总结三部曲</a>
-      <span class="forum_link">[<span class="parent"><a href="/forums/Java">Java</a></span> <a href="/forums/J2EE">Java EE</a>]</span>
+    <td class="title"
     </td>
     <td class="tc">100</td>
     <td class="tc">

@@ -199,6 +199,12 @@
         <version>2.0</version>
       </plugin>
 
+      <dependency>
+    <groupId>jboss</groupId>
+    <artifactId>jboss-j2ee</artifactId>
+    <version>4.0.2</version>
+</dependency>
+      
       <!--编码配置-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>BBS论坛</title>
 <link href="css\layout.css" rel="stylesheet" type="text/css" />
 </head>
 <body>

@@ -1,5 +1,6 @@
 package com.fc.async;
 
+import com.fc.*;
 import com.fc.util.MyConstant;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -47,7 +48,7 @@ public class MailTask implements Runnable {
 
                 mimeMessageHelper.setText(sb.toString(),true);
 
-                System.out.println("结束发邮件...");
+                System.out.println("结束发邮件");
             }
         });
     }

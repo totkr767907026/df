@@ -7,7 +7,9 @@
 </head>
 <body>
 <div id="container">
-   <div id="header"><img alt="Here is HJ IT论坛"  />
+   <div id="header">
+      "Here is BBS论坛"
+   </div>
    <div id="topmenu"> 
        <div class="text clearfix" style=" text-align:right;">
        <input type="reset" name="reset" value="登陆" onclick="javascrtpt:window.location.href='loginin.jsp'">
